@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_moons, make_blobs
 from sklearn.model_selection import train_test_split
-
+# test
 
 def data_normalization(train_data: np.ndarray, test_data: np.ndarray):
     mean = train_data.mean(axis=0)
